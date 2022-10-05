@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Roboto&display=swap');
+
+html,body{
+    font-size:15px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );    background-repeat: no-repeat;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    
+}
+
+.container{
+    min-width: 10rem;
+    width: 27rem;
+    min-height: 400px;
+    background-color: white;
+   border-radius:3px;
+   
+}
+h1{
+    text-align: center;
+    font-size:1.8rem;
+}
+.players{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.player1,.player2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.dice{
+    width: 70px;
+    height: 70px;
+    background-color:rgb(1, 240, 120);
+    border:2px solid black;
+    border-radius: 4px;
+    color:black;
+    font-size:3.3rem;
+    text-align: center;
+}
+.butonat{
+    margin: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button{
+    width: 80px;
+    padding: 9px;
+    font-size: 1rem;
+    border-radius: 4px;
+    background-color: black;
+    border:none;
+    font-weight: 700;
+    color:white;
+}
+button:hover{
+    background-color: black;
+    color:rgb(0, 119, 255);
+}
+#res:hover{
+color:black;
+}
+#res{
+    background-color: rgb(235, 16, 16);
+    color: white;
+}
+.remove{
+    visibility: hidden;
+}
+
+.show{
+visibility:visible;
+}
+
+button:hover{
+    cursor: pointer;
+}
