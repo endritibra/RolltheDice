@@ -62,15 +62,17 @@ roll.addEventListener('click',function(){
         roll.classList.add('remove')
         roll.classList.remove('show')
         playa.textContent="Player1 Wins , Reset"
-
-       
-
+        playa.style.scale=1.5;
+        playa.style.backgroundColor = '#fdff00';
+        
         
     }else if(player2.score===20 || player2.score>20){
         console.log("Player 2 wins");
         roll.classList.add('remove')
         roll.classList.remove('show')
         playa.textContent="Player2 Wins , Reset"
+        playa.style.scale=1.5;
+        playa.style.backgroundColor = '#fdff00';
 
 
 
@@ -101,7 +103,10 @@ reset.addEventListener('click',function(){
     document.querySelector("#player1Scoreboard").textContent=""
     document.querySelector("#player2Scoreboard").textContent="";
     playa.textContent="Player1 turn"
+    playa.style.scale=1;
+    playa.style.backgroundColor = '#01F078';
 
+    
     // document.querySelector('.butonat').appendChild(roll);
 })
 

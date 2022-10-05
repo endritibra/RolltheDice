@@ -18,7 +18,7 @@ html,body{
     min-height: 400px;
     background-color: white;
    border-radius:3px;
-   margin-bottom: 4rem;
+   margin-bottom: 3rem;
    
 }
 h1{
@@ -109,9 +109,9 @@ button:hover{
 }   
 @keyframes dicer{
     0%   {left:0px; top:0px;}
-    25%  {left:30px; top:0px;}
-    50%  {left:10px; top:55px;}
-    75%  {left:0px; top:40px;}
+    25%  {left:10px; top:0px;}
+    50%  {left:10px; top:25px;}
+    75%  {left:0px; top:30px;}
     100% {left:10px; top:20px;}
 
 }
