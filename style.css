@@ -9,6 +9,7 @@ html,body{
     align-items: center;
     height:100%;
     overflow: hidden;
+    flex-direction: column;
 }
 
 .container{
@@ -17,6 +18,7 @@ html,body{
     min-height: 400px;
     background-color: white;
    border-radius:3px;
+   margin-bottom: 4rem;
    
 }
 h1{
@@ -81,4 +83,35 @@ visibility:visible;
 
 button:hover{
     cursor: pointer;
+}
+
+#playa{
+    background-color:rgb(1, 240, 120);
+    color: black;
+    width: 250px;
+    margin:0 auto;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 10px 10px 0 0;
+    text-transform: uppercase;
+}
+.dicing{
+    background-image: url("./R.png");
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-name: dicer;
+    animation-duration: 6s;
+    position: relative;
+    animation-iteration-count: infinite;
+}   
+@keyframes dicer{
+    0%   {left:0px; top:0px;}
+    25%  {left:30px; top:0px;}
+    50%  {left:10px; top:55px;}
+    75%  {left:0px; top:40px;}
+    100% {left:10px; top:20px;}
+
 }
